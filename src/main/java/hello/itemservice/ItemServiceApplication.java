@@ -13,9 +13,9 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import javax.sql.DataSource;
 
 
-//@Import(MemoryConfig.class)
 @Slf4j
-@Import(MyBatisConfig.class)
+//@Import(MyBatisConfig.class)
+@Import(JpaConfig.class)
 @SpringBootApplication(scanBasePackages = "hello.itemservice.web")
 public class ItemServiceApplication {
 
